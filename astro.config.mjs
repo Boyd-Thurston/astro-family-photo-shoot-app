@@ -1,4 +1,7 @@
 export default {
+  renderers: [
+    '@astro/renderer-react'
+  ],
   // projectRoot: '.',     // Where to resolve all URLs relative to. Useful if you have a monorepo project.
   // pages: './src/pages',   // Path to Astro components, pages, and data
   // dist: './dist',       // When running `astro build`, path to final static output
